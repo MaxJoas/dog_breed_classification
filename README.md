@@ -17,4 +17,49 @@ The required libraries can be found in `requirements.txt`
 ## File Structure
 *  `dog_app.py` Script that loads data, builds, trains and save the CNN model
 *  `dog_app.ipynb` Jupyter Notebook (partly filled by Udacity) that documents the working process of creating the CNN model
-* `extract_bottleneck_features.py`
+* `extract_bottleneck_features.py` Helper script to work with popular CNN architectures e.g. Resnet50, VGG19, InceptionV3...
+
+## Data Availability
+
+The image data comes from [ImageNet](http://www.image-net.org) and was partly prepared by Udacity. Hence I don't share the data on github. However, I'd like to  present the file structure of the data. All data was placed in a data directory, which was one level above this git directory. In structure inside the data folder looks as follows:
+
+
+```
+data  
+│
+└───dogImages
+│   │
+│   └───test
+│     │
+│     └───1.breed01
+│         │   breed01_1.jpg
+│         │   breed01_2.jpg
+│         │   ...
+│     └───1.breed02
+│         │   breed02_1.jpg
+│         │   breed02_2.jpg
+│         │   ...
+│     └─── ...
+│         │   ... 
+│   └───train
+│     └─── ...
+│         │   ... 
+│   └───valid
+│     └─── ...
+│         │   ... 
+└───lfw
+|    │   
+|    └───human01
+│       │   human01.jpg
+|    └───human02
+│       │   human02.jpg
+│   └─── ...
+│       │   ... 
+└───bottleneck_features
+|    │   
+|    └───DogXceptionData.npz
+|    └───DogVGG16Data.npz
+|___own_test
+|    │   
+|    └───own_img.jpg
+```
