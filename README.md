@@ -1,5 +1,5 @@
 ## TL;DR
-*  Built a CNN that classify dog breeds with an accurcay of 85%
+*  Built a CNN to classify dog breeds with an accurcay of 85%
 *  Try it out [here](https://dogbreedclassification.herokuapp.com)
 
 
