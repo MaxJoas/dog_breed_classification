@@ -70,7 +70,9 @@ data
 
 ## Web App
 In order to make the model available to a less tech-savvy audience, I've created a Flask Web App and deployed it to heroku.
-Users can upload images to the website. If it is an image of a dog, the website classifies the dog's breed. If it is an image of a human, the website detects the image as a human and finds a dog breed that ressembles the human
+Users can upload images to the website. If it is an image of a dog, the website classifies the dog's breed. If it is an image of a human, the website detects the image as a human and finds a dog breed that ressembles the human.
+*  Try it out [here](https://dogbreedclassification.herokuapp.com)
+*  Find the code [here](https://github.com/MaxJoas/dogBreedWebApp)
 
 
 
